@@ -1,7 +1,10 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GDPVb20V)
 # Mystery Function
 
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
+
+**The mystery() function is a recursive function that finds the maximum element in the array. It does this by recursively comparing the first element of the array with the maximum element in the subarray and returning whichever value is greater.**
 
 ```javascript
 function mystery(a) {
