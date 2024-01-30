@@ -4,6 +4,8 @@
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
 
+**The mystery() function is a recursive function that finds the maximum element in the array. It does this by recursively comparing the first element of the array with the maximum element in the subarray and returning whichever value is greater.**
+
 ```javascript
 function mystery(a) {
     if(a.length == 1) return a[0];
